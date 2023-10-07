@@ -1,0 +1,124 @@
+body {
+    background-color: #525252;
+    color: white;
+    margin: 0;
+}
+
+body nav {
+    display: flex;
+    justify-content: center;
+}
+
+body hr {
+    margin: 0;
+    border: #A3BBAD solid 1px;
+}
+
+body nav a {
+    background-color: #357266;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-top: 20px;
+    border: #0C7C59 solid 1px;
+}
+
+body nav a:last-child {
+    margin-right: 0;
+}
+
+body nav a:hover {
+    background-color: #0C7C59;
+    color: inherit;
+    cursor: progress;
+    transform: scale(1,1);
+    transform: rotateX(17deg);
+}
+
+body nav a:visited {
+    /*background-color: #A3BBAD;*/
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #0E3B43;
+
+}
+
+footer div {
+    margin-right: 15px;
+}
+
+footer div:last-child {
+    margin-right: 0;
+}
+
+.index h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.index p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.login {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.login .button {
+    background-color: #357266;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100px;
+    text-decoration: none;
+    color: inherit;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login form fieldset input {
+    background-color: #A3BBAD;
+    color: white;
+}
+
+.gallery img {
+    width: 120px;
+    height: 100px;
+}
+
+footer img {
+    width: 80px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+.order table {
+    margin-bottom: 10px;
+}
+
+.order table, th, td {
+    border: white solid 2px;
+    border-collapse: collapse;
+}
+
+.order tr:nth-child(even) {
+    background-color: #A3BBAD;
+    color: black;
+}
+
+.order tr:nth-child(odd) {
+    background-color: #273E47; 
+}
+
+.order tr:nth-child(1) { /*.order th*/
+    background-color: #BD632F;
+}
