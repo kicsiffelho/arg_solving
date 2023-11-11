@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+    background-color: #F8FFF4;
+}
+
+body nav {
+    display: flex;
+    justify-content: center;
+}
+
+body nav a {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: darkgreen;
+    border: darkgreen 1px solid;
+}
+
+body h1 {
+    display: flex;
+    justify-content: center;
+}
+
+body h1:hover {
+    color: darkgreen;
+}
+
+body button {
+    padding: 8px;
+    border-radius: 7px;
+    width: 80px;
+    text-decoration: none;
+    background-color: darkgreen;
+    color: white;
+    margin-left: 20px;
+}
+
+
+body .image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+body img {
+    width: 250px;
+    margin-left: 15px;
+}
+
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 80%;
+}
+
+table, th, td {
+    border: darkgreen solid 2px;
+    border-collapse: collapse;
+}
+
+table td {
+    text-align: center;
+    vertical-align: middle;
+}
+.list {
+    margin-left: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer div {
+    margin: 20px;
+}
+
+footer div:last-child{
+    margin-right: 0;
+}
+
+hr {
+    color: darkgreen;
+}
+
+footer div {
+    margin-left: 10px;
+}
+
+.login a {
+    margin-bottom: 20px;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.login {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border: 0px;
+}
+
+.login a {
+    max-width: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-top: 20px;
+    color: darkgreen;
+    border: darkgreen 1px solid;
+}
+
+.login input[type=text] {
+    border: 2px solid darkgreen;
+}
+
+.login input[type=password] {
+    border: 2px solid darkgreen;
+}
+
+.login input[type=date] {
+    border: 2px solid darkgreen;
+}
+
+.login button {
+    padding: 8px;
+    border-radius: 7px;
+    width: 80px;
+    text-decoration: none;
+    background-color: darkgreen;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bekezdes-szine {
+    color:blueviolet;
+}
+
+.test {
+    font-size: 50px !important;
+}
