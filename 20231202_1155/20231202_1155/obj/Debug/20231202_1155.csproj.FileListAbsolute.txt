@@ -1,0 +1,7 @@
+C:\Users\Student\Documents\msosy8\20231202_1155\20231202_1155\bin\Debug\20231202_1155.exe.config
+C:\Users\Student\Documents\msosy8\20231202_1155\20231202_1155\bin\Debug\20231202_1155.exe
+C:\Users\Student\Documents\msosy8\20231202_1155\20231202_1155\bin\Debug\20231202_1155.pdb
+C:\Users\Student\Documents\msosy8\20231202_1155\20231202_1155\obj\Debug\20231202_1155.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\msosy8\20231202_1155\20231202_1155\obj\Debug\20231202_1155.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\msosy8\20231202_1155\20231202_1155\obj\Debug\20231202_1155.exe
+C:\Users\Student\Documents\msosy8\20231202_1155\20231202_1155\obj\Debug\20231202_1155.pdb
