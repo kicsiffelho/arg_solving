@@ -1,0 +1,7 @@
+C:\Users\Student\Documents\msosy8\fajlkezeles\fajlkezeles\bin\Debug\fajlkezeles.exe.config
+C:\Users\Student\Documents\msosy8\fajlkezeles\fajlkezeles\bin\Debug\fajlkezeles.exe
+C:\Users\Student\Documents\msosy8\fajlkezeles\fajlkezeles\bin\Debug\fajlkezeles.pdb
+C:\Users\Student\Documents\msosy8\fajlkezeles\fajlkezeles\obj\Debug\fajlkezeles.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\msosy8\fajlkezeles\fajlkezeles\obj\Debug\fajlkezeles.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\msosy8\fajlkezeles\fajlkezeles\obj\Debug\fajlkezeles.exe
+C:\Users\Student\Documents\msosy8\fajlkezeles\fajlkezeles\obj\Debug\fajlkezeles.pdb
