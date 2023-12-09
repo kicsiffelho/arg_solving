@@ -1,0 +1,7 @@
+C:\Users\user\Documents\msosy8\2zh\2zh\obj\Debug\2zh.csproj.AssemblyReference.cache
+C:\Users\user\Documents\msosy8\2zh\2zh\obj\Debug\2zh.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\msosy8\2zh\2zh\bin\Debug\2zh.exe.config
+C:\Users\user\Documents\msosy8\2zh\2zh\bin\Debug\2zh.exe
+C:\Users\user\Documents\msosy8\2zh\2zh\bin\Debug\2zh.pdb
+C:\Users\user\Documents\msosy8\2zh\2zh\obj\Debug\2zh.exe
+C:\Users\user\Documents\msosy8\2zh\2zh\obj\Debug\2zh.pdb
