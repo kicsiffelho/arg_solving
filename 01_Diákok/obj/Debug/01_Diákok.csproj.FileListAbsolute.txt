@@ -1,0 +1,7 @@
+C:\Users\Student\Documents\msosy8\magprog2\01_Diákok\bin\Debug\01_Diákok.exe.config
+C:\Users\Student\Documents\msosy8\magprog2\01_Diákok\bin\Debug\01_Diákok.exe
+C:\Users\Student\Documents\msosy8\magprog2\01_Diákok\bin\Debug\01_Diákok.pdb
+C:\Users\Student\Documents\msosy8\magprog2\01_Diákok\obj\Debug\01_Diákok.csproj.AssemblyReference.cache
+C:\Users\Student\Documents\msosy8\magprog2\01_Diákok\obj\Debug\01_Diákok.csproj.CoreCompileInputs.cache
+C:\Users\Student\Documents\msosy8\magprog2\01_Diákok\obj\Debug\01_Diákok.exe
+C:\Users\Student\Documents\msosy8\magprog2\01_Diákok\obj\Debug\01_Diákok.pdb
