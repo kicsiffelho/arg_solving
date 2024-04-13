@@ -1,0 +1,4 @@
+hatékonyság szerinti csoportok
+tárbonyolultság szerint: mennyi helyet foglal el
+végrehajtási idő szerint: mennyi idő alatt fut le az algoritmus
+bonyolultság szerint: egymásba ágazott szerkezetek száma alapján

@@ -1,0 +1,130 @@
+1.
+algoritmus fogalma + tulajdonságai
+fogalma: egy problémara megoldására elemi lépések sorozata
+tulajdonságok:
+- lépések száma véges,
+- minden lépés után egyértelmű a következő lépés,
+- univerzális,
+- determinisztikus, mert egy adppt bemenethez ugyanaz a kimenet tartozik
+
+2.
+hatékonyság szerinti csoportok
+tárbonyolultság szerint: mennyi helyet foglal el
+végrehajtási idő szerint: mennyi idő alatt fut le az algoritmus
+bonyolultság szerint: egymásba ágazott szerkezetek száma alapján
+
+3.
+# összegzés tétele (mit csinálunk + kód)
+# sorozat elemeit összeadjuk
+
+S = [1, 2, 3, 4, 5, 6]
+def osszegzes(S):
+    sum = 0
+    for i in range(len(S)):
+        sum += S[i]
+    return sum
+
+print(osszegzes(S))
+
+4.
+# megszámlálás tétele
+# megszámoljuk a sorozat elmeit
+
+S = [1, 2, 3, 4, 5, 6]
+def megszamlalas(S):
+    counter = 0
+    for i in range(len(S)):
+        counter += 1
+    return counter
+
+print(megszamlalas(S))
+
+5.
+# kiválogatás tétele
+# kiválogatjuk egy másik tömbbe a sorozat azon elemeit, amelyek a feltételnek megfelelnek
+
+S = [1, 2, 3, 4, 5, 6]
+def paros(n):
+    return n%2==0
+
+def kivalogatas(S,T, f):
+    for i in range(len(S)):
+        if f(S[i]):
+            T.append(S[i])
+    return T
+
+print(kivalogatas(S, [], paros))
+
+6.
+# min érték kiválasztása
+# a sorozat legkisebb elemét kiválasztjuk
+
+S = [2, 3, 4, 1, 5, 6]
+def min_ertek_kivalasztasa(S):
+    min = S[0]
+    for i in range(1, len(S)):
+        if S[i] < min:
+            min = S[i]
+    return min
+
+print(min_ertek_kivalasztasa(S))
+
+7.
+# min érték első előfordulási helyének meghatározása
+# meghatározzuk a sorozat legkisebb elemének a helyét
+
+S = [2, 3, 4, 1, 5, 6]
+def min_ertek_hely_kivalasztasa(S):
+    min = 0
+    for i in range(1, len(S)):
+        if S[i] < S[min]:
+            min = i
+    return min
+
+print(min_ertek_hely_kivalasztasa(S))
+
+8.
+# lineáris keresés
+
+S = [1, 2, 3, 4, 5, 6]
+
+def lin_kereses(S, n):
+    i = 0
+    while i < len(S) and S[i] != n:
+        i += 1
+    return i < len(S)
+
+print(lin_kereses(S, 7))
+
+9.
+# eldöntés tétele
+# eldöntjük, hogy a sorozat bármely eleme megfelel-e egy adott tulajdonságnak, addig vizsgáljuk a sorozat elemeit,
+# amíg nem találunk egy megfelelőt
+
+S = [1, 2, 3]
+
+def paros(S):
+    for i in range(len(S)):
+        if S[i] % 2 == 0:
+            return True
+    return False
+    
+print(paros(S))
+
+10.
+# bináris keresés -> [2, 6, 8, 11, 13, 21, 72, 84, 90] keresett érték: 8 + algo ábra
+
+S = [2, 6, 8, 11, 13, 21, 72, 84, 90]
+def bin_kereses(S, n):
+    a = 0
+    f = len(S) - 1
+    k = (a + f) // 2
+    while a <= f and S[k] != n:
+        if n < S[k]:
+            f = k - 1
+        else:
+            a = k + 1
+        k = (a + f) // 2
+    return a <= f and S[k] == n
+
+print(bin_kereses(S, 8))

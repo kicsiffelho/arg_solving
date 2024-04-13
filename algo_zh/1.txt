@@ -1,0 +1,7 @@
+algoritmus fogalma + tulajdonságai
+fogalma: egy problémara megoldására elemi lépések sorozata
+tulajdonságok:
+- lépések száma véges,
+- minden lépés után egyértelmű a következő lépés,
+- univerzális,
+- determinisztikus, mert egy adppt bemenethez ugyanaz a kimenet tartozik

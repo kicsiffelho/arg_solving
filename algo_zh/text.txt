@@ -1,0 +1,14 @@
+1. algoritmus fogalma + tulajdonságai
+2. hatékonyság szerinti csoportok
+3. összegzés tétele
+4. megszámlálás tétele
+5. kiválogatás tétele
+6. min érték kiválasztása
+7. min érték első előfordulási helyének meghatározása
+8. lineáris keresés
+9. eldöntés tétele
+10. bináris keresés -> [2, 6, 8, 11, 13, 21, 72, 84, 90] keresett érték: 8 + algo ábra
+
+3,4,5,6,7,9 kód + tétele
+8 kód
+1,2 fogalom
